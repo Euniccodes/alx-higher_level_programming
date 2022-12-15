@@ -9,9 +9,9 @@ def delete_at(my_list=[], idx=0):
     Return:
         my_list - if idx is out of range
     """
-        if -1 < idx < len(my_list):
-                del my_list[idx]
-            return my_list
+    if -1 < idx < len(my_list):
+        del my_list[idx]
+    return my_list
 
 
 if __name__ == '__main__':
