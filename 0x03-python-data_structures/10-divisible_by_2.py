@@ -8,7 +8,7 @@ def divisible_by_2(my_list=[]):
     Return:
         list of True or False
     """
-        return list(map(lambda x: False if x % 2 else True, my_list))
+    return list(map(lambda x: False if x % 2 else True, my_list))
 
 
 if __name__ == '__main__':
